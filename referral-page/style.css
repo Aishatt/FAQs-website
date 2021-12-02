@@ -1,0 +1,46 @@
+body{
+ 
+}
+#contain{
+    background-color: rgb(24, 9, 16);
+    color: white;
+   position: relative;
+    padding: 50px;
+}
+#price{
+    width: 90px;
+    border: none;
+    border-bottom: 1.5px solid rgb(46, 46, 46);
+}
+#payout{
+    width: 90px; 
+}
+#calculator{
+    position: absolute;
+    bottom: 0%;
+    right: 25%;
+  
+    
+}
+.foot{
+    background-color: rgb(2, 14, 49);
+}
+#how{
+    margin-top: 10%;
+}
+.level{
+    background-color: rgb(241, 58, 73);
+    width: 15%;
+   position: absolute;
+   bottom: 50%;
+   color: white;
+}
+.col>ul>li{
+    list-style: none;
+}
+@media screen and (max-width:768px) {
+    #calculator{
+       position: relative;
+      margin-right: 20%;    
+    }
+}
